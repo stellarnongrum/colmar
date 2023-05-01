@@ -1,0 +1,17 @@
+body {
+    background-color: #22dd7788;
+}
+
+.h1 {
+    display: inline-block;
+    font-size: 32px;
+    text-align: center;
+}
+
+.table {
+    height: 200px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+}

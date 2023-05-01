@@ -1,0 +1,233 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+   
+    border-style: outset;
+    border-color: white;
+    border-width: 10px;
+
+
+}
+.button{
+    background-color: #37f;
+    float: right;
+    height: 60px;
+    width: 300px;
+   
+
+}
+.button a{
+    color: white;
+    text-decoration: none;
+   
+}
+a img{
+    float: left;
+}
+#nav-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+#header{
+    width: 100%;
+    min-height: 40px;
+    background-color: lightblue;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.nav{
+    text-align: center;
+    padding: 10px 0px;
+    background: #37f;
+    text-decoration: none;
+    list-style: none;
+}
+.main-menu>li{
+    display: inline-block;
+    padding: 10px 0px;
+    margin-left: 10px;
+    border-left: 3px solid white;
+    color: white;
+   width: 180px;
+   transition: 4s;
+   text-decoration: none;
+   list-style: none;
+}
+.sub-menu{
+    display: none;
+    list-style: none;
+    position: absolute;
+    border: 5px solid white;
+    margin-top: 30px;
+    margin-left: -10px;
+    text-align: left;
+    box-shadow: 1px 1px 1px lightblue;
+}
+
+.sub-menu>li{
+    padding: 10px;
+    color: white;
+
+}
+.dropdown ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main-menu li:hover, .sub-menu li:hover{
+    background: #35c;
+}
+.main-menu li:hover .sub-menu{
+    display: block;
+}
+.sub-menu:before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid white;
+    position: absolute;
+    margin: -30px 0px 60px;
+}
+#main{
+    width: 100%;
+  min-height: 450px;
+  
+    margin-bottom: 20px;
+
+}
+#footer{
+    width: 100%;
+    min-height: 100px;
+}
+
+
+.btn{
+    background-color: #37f;
+    height: 60px;
+    width: 200px;
+   
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+   
+}
+.top{
+    float: right;
+}
+.main{
+
+
+    width: 100%;
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(back-to-school-education-background-school-supplies-vector-44084479.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    
+      
+}
+
+
+
+
+.foot{
+    border: solid;
+    border-color: white;
+    background-color: burlywood;
+    text-align: center;
+}
+.foot ul li img{
+   width: 50px;
+   height: 50px;
+   border-radius: 10%;
+}
+.foot ul li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+header{
+    /* background-color: rgb(99, 74, 211); */
+    background-image: url(gate.jpg);
+    backdrop-filter: brightness(50%);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: 100% 110%;
+    /* position: ; */
+}
+header nav{
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    display: flex;
+	margin-left: 70px;
+}
+.logo{
+    border-radius: 5%;
+}
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    background-color: rgb(99, 74, 211);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 20px;
+    }
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+    color: white;
+    }
+nav ul li ul{
+    position: absolute;
+    list-style: none;
+    display: none;
+    text-decoration: none;
+    padding: 0;
+    margin 0; 
+    
+}
+nav ul li ul li{
+    display: inline-block;
+    margin: 0;
+    padding-top: 20px;
+
+}
+nav ul li:hover{
+    /* display: block; */
+    color: burlywood;
+    background-color: blueviolet;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul ul li a:hover{
+    color: burlywood;
+
+}
+nav ul ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*.button a{
+    text-align: center;
+    text-decoration: none;  
+    background-color: lightblue;
+}*/

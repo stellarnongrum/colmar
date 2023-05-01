@@ -1,0 +1,87 @@
+.foot{
+    border: solid;
+    border-color: white;
+    background-color: burlywood;
+    text-align: center;
+}
+.foot ul li img{
+   width: 50px;
+   height: 50px;
+   border-radius: 10%;
+}
+.foot ul li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+header{
+    /* background-color: rgb(99, 74, 211); */
+    background-image: url(gate.jpg);
+    backdrop-filter: brightness(50%);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: 100% 110%;
+    /* position: ; */
+}
+header nav{
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    display: flex;
+	margin-left: 70px;
+}
+.logo{
+    border-radius: 5%;
+}
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    font-size: 15px;
+    position: relative;
+    background-color: rgb(99, 74, 211);
+    text-align: center;
+    border-radius: 10%;
+    font-size: 20px;
+    }
+    nav ul li a{
+        display: block;
+        text-decoration: none;
+    color: white;
+    }
+nav ul li ul{
+    position: absolute;
+    list-style: none;
+    display: none;
+    text-decoration: none;
+    padding: 0;
+    margin 0; 
+    
+}
+nav ul li ul li{
+    display: inline-block;
+    margin: 0;
+    padding-top: 20px;
+
+}
+nav ul li:hover{
+    /* display: block; */
+    color: burlywood;
+    background-color: blueviolet;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul ul li a:hover{
+    color: burlywood;
+
+}
+nav ul ul li a{
+    color: white;
+    text-decoration: none;
+}
+.success{
+    display: inline-block;
+}
